@@ -1,8 +1,8 @@
 layout: {zmk_keyboard: Enigma_01_a}
 layers:
   Default:
-  - '&tp3'
-  - '&tp4'
+  - LANGUAGE 1
+  - LANG2
   - '&tp1'
   - W
   - E
@@ -44,8 +44,8 @@ layers:
   - DOWN
   - RIGHT
   Ctrl+_Num_:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Gui+TAB
+  - Gui+Sft+TAB
   - '1'
   - '2'
   - '3'
@@ -87,8 +87,8 @@ layers:
   - DOWN ARROW
   - RIGHT ARROW
   Shift+_Symbol:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - VOLUME UP
+  - VOLUME DOWN
   - Sft+1
   - Sft+2
   - Sft+3
