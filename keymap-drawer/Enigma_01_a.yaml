@@ -34,15 +34,15 @@ layers:
   - .
   - /
   - '&tp2'
-  - LEFT WIN
   - LEFT ALT
+  - LEFT GUI
   - {t: SPACE, h: Ctrl+_Num_}
+  - SPACE
   - BACKSPACE
-  - DEL
   - {t: ENTER, h: Shift+_Mouse_}
-  - RALT
-  - '&tp2'
-  - Sft+INTERNATIONAL 1
+  - LEFT
+  - DOWN
+  - RIGHT
   Ctrl+_Num_:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
