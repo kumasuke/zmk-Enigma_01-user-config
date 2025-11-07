@@ -179,11 +179,11 @@
 
         Default {
             bindings = <
-       &tp3          &tp4
-&tp1   &kp W         &kp E         &kp R        &kp T      &kp Y          &kp U        &kp I      &kp O     &kp P
-&kp A  &kp S         &kp D         &kp F        &kp G      &kp H          &kp J        &kp K      &kp L     &kp MINUS
-&kp Z  &kp X         &kp C         &kp V        &kp B      &kp N          &kp M        &kp COMMA  &kp DOT   &lt 1 SLASH
-&tp2   &kp LEFT_ALT  &kp LEFT_GUI  &lt 1 SPACE  &kp SPACE  &kp BACKSPACE  &lt 2 ENTER  &kp LEFT   &kp DOWN  &kp RIGHT
+       &kp LANGUAGE_1  &kp LANG2
+&tp1   &kp W           &kp E         &kp R        &kp T      &kp Y          &kp U        &kp I      &kp O     &kp P
+&kp A  &kp S           &kp D         &kp F        &kp G      &kp H          &kp J        &kp K      &kp L     &kp MINUS
+&kp Z  &kp X           &kp C         &kp V        &kp B      &kp N          &kp M        &kp COMMA  &kp DOT   &lt 1 SLASH
+&tp2   &kp LEFT_ALT    &kp LEFT_GUI  &lt 1 SPACE  &kp SPACE  &kp BACKSPACE  &lt 2 ENTER  &kp LEFT   &kp DOWN  &kp RIGHT
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -191,11 +191,11 @@
 
         Ctrl+_Num_ {
             bindings = <
-              &trans        &trans
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5     &kp NUMBER_6     &kp N7           &kp NUMBER_8     &kp NUMBER_9    &kp NUMBER_0
-&none         &kp F6        &kp F7        &kp F8        &kp F10          &none            &none            &none            &none           &kp BACKSPACE
-&kp LC(Z)     &kp LC(X)     &kp LC(C)     &kp LC(V)     &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp UP_ARROW    &kp KP_DOT
-&trans        &trans        &trans        &trans        &trans           &trans           &kp RIGHT_GUI    &kp LEFT         &kp DOWN_ARROW  &kp RIGHT_ARROW
+              &kp LG(TAB)   &kp LG(LS(TAB))
+&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3     &kp NUMBER_4  &kp NUMBER_5     &kp NUMBER_6     &kp N7           &kp NUMBER_8     &kp NUMBER_9    &kp NUMBER_0
+&none         &kp F6        &kp F7           &kp F8        &kp F10          &none            &none            &none            &none           &kp BACKSPACE
+&kp LC(Z)     &kp LC(X)     &kp LC(C)        &kp LC(V)     &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp UP_ARROW    &kp KP_DOT
+&trans        &trans        &trans           &trans        &trans           &trans           &kp RIGHT_GUI    &kp LEFT         &kp DOWN_ARROW  &kp RIGHT_ARROW
             >;
 
             sensor-bindings = <&arrow_left_right>;
@@ -203,11 +203,11 @@
 
         Shift+_Symbol {
             bindings = <
-                  &trans            &trans
-&kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp LS(NUMBER_5)   &kp LS(NUMBER_6)  &kp LS(NUMBER_7)  &kp LS(NUMBER_8)  &kp LS(NUMBER_9)   &kp LS(NUMBER_0)
-&none             &none             &none             &kp SEMICOLON     &kp SQT            &kp MINUS         &kp EQUAL         &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp PIPE
-&none             &none             &none             &kp COLON         &kp DOUBLE_QUOTES  &kp UNDERSCORE    &kp PLUS          &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp NON_US_BACKSLASH
-&trans            &trans            &trans            &trans            &trans             &trans            &trans            &none             &none              &kp GRAVE
+                  &kp C_VOLUME_UP   &kp C_VOLUME_DOWN
+&kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)   &kp LS(NUMBER_4)  &kp LS(NUMBER_5)   &kp LS(NUMBER_6)  &kp LS(NUMBER_7)  &kp LS(NUMBER_8)  &kp LS(NUMBER_9)   &kp LS(NUMBER_0)
+&none             &none             &none              &kp SEMICOLON     &kp SQT            &kp MINUS         &kp EQUAL         &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp PIPE
+&none             &none             &none              &kp COLON         &kp DOUBLE_QUOTES  &kp UNDERSCORE    &kp PLUS          &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp NON_US_BACKSLASH
+&trans            &trans            &trans             &trans            &trans             &trans            &trans            &none             &none              &kp GRAVE
             >;
 
             sensor-bindings = <&scroll_up_down>;
