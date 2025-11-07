@@ -44,8 +44,8 @@ layers:
   - DOWN
   - RIGHT
   Ctrl+_Num_:
-  - Gui+TAB
-  - Gui+Sft+TAB
+  - TAB
+  - Sft+TAB
   - '1'
   - '2'
   - '3'
