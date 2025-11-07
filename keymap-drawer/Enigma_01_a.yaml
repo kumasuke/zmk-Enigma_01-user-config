@@ -39,7 +39,7 @@ layers:
   - {t: SPACE, h: Ctrl+_Num_}
   - SPACE
   - BACKSPACE
-  - {t: ENTER, h: Shift+_Mouse_}
+  - {t: ENTER, h: Shift+_Symbol}
   - LEFT
   - DOWN
   - RIGHT
@@ -86,7 +86,7 @@ layers:
   - LEFT
   - DOWN ARROW
   - RIGHT ARROW
-  Shift+_Mouse_:
+  Shift+_Symbol:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Sft+1
@@ -99,26 +99,26 @@ layers:
   - Sft+8
   - Sft+9
   - Sft+0
-  - F1
-  - F2
-  - F3
-  - F4
-  - F5
-  - F6
-  - F7
-  - F8
-  - F9
-  - F10
-  - F11
-  - F12
   - ''
   - ''
   - ''
+  - ;
+  - ''''
+  - '-'
+  - '='
+  - '{'
+  - '}'
+  - '|'
   - ''
   - ''
-  - '&mkp MB1'
-  - '&mmv MOVE_UP'
-  - '&mkp MB2'
+  - ''
+  - ':'
+  - '"'
+  - _
+  - +
+  - '['
+  - ']'
+  - \
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -126,9 +126,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - '&mmv MOVE_LEFT'
-  - '&mmv MOVE_DOWN'
-  - '&mmv MOVE_RIGHT'
+  - ''
+  - ''
+  - '`'
   setting:
   - BT CLR
   - BT CLR ALL
