@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: Enigma_01_a}
 layers:
-  Default_JIS:
+  Default:
   - '&tp3'
   - '&tp4'
   - '&tp1'
@@ -32,7 +32,7 @@ layers:
   - M
   - ','
   - .
-  - /
+  - {t: /, h: Ctrl+_Num_}
   - '&tp2'
   - LEFT ALT
   - LEFT GUI
@@ -46,26 +46,26 @@ layers:
   Ctrl+_Num_:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - ''
+  - F6
+  - F7
+  - F8
+  - F10
   - ''
   - ''
   - ''
   - ''
-  - ''
-  - KP 7
-  - KP 8
-  - KP 9
-  - KP MINUS
-  - PRINTSCREEN
-  - Ctl+A
-  - Ctl+S
-  - Ctl+D
-  - Ctl+F
-  - ''
-  - KP 4
-  - KP 5
-  - KP 6
-  - KP PLUS
-  - DELETE
+  - BACKSPACE
   - Ctl+Z
   - Ctl+X
   - Ctl+C
@@ -75,14 +75,14 @@ layers:
   - KP 2
   - KP 3
   - UP ARROW
-  - KP DOT
+  - {t: KP DOT, type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - RIGHT GUI
   - LEFT
   - DOWN ARROW
   - RIGHT ARROW
